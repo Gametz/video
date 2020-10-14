@@ -1,0 +1,86 @@
+body {
+	background: url("../bg/bg.png") 0 0 repeat; 
+}
+
+@font-face {
+	font-family: Osw;
+	src: url("../fonts/osw.ttf");
+}
+
+a {
+	text-decoration: none;
+}
+ 
+hr {
+	margin-top: 20px;
+}
+
+.name {
+	text-align: center;
+	font-size: 60px;
+	font-family: Osw;
+	color: rgba(255,0,255,1);
+}
+
+.text {
+	font-size: 35px;
+	font-family: Osw;
+	padding: 40px;
+	text-align: center;
+}
+
+.text2 {
+	font-family: Osw;
+	font-size: 30px;
+	padding-top: 3%;
+	text-align: center;
+}
+
+.vids {
+	text-align: center;
+}
+
+.src {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+	padding: 30px;
+	font-family: Osw;
+	font-size: 40px;
+	color: rgba(255,0,0,1);
+}
+
+.button {
+	display: inline-block;
+	font-family: Osw;
+	font-size: 30px;
+	vertical-align: middle;
+	text-align: center;	
+	margin: 10px;
+
+}
+
+.crc {
+	text-align: center;
+}
+
+.img {
+	height: 200px;
+	width: 400px;
+}
+
+.by {
+	font-family: Osw;
+	color: black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.error {
+	height: 55%;
+	width: 32%;
+}
